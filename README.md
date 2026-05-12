@@ -49,6 +49,20 @@ Open:
 ```text
 http://127.0.0.1:5002
 ```
+## Screenshots
+
+### Input Form
+
+![Input Form](screenshots/input-form.png)
+
+### Recommendation Results
+
+![Recommendation Results](screenshots/recommendation-results.png)
+
+### Full Page View
+
+![Full Page View](screenshots/full-page-view.png)
+
 
 ## Resume Summary
 
