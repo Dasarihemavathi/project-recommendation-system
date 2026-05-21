@@ -2,7 +2,7 @@ services:
   - type: web
     name: hemavathi-project-recommendation-system
     runtime: python
-    buildCommand: ./build.sh
+    buildCommand: bash build.sh
     startCommand: gunicorn project_recommender.wsgi:application
     envVars:
       - key: DJANGO_DEBUG
