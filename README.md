@@ -68,3 +68,25 @@ http://127.0.0.1:5002
 
 Developed a Django-based project recommendation system that suggests project ideas using rule-based filtering based on user skills, interests, domain preference, and difficulty level.
 
+## Deployment
+
+This project includes Render deployment files:
+
+- `build.sh`
+- `Procfile`
+- `render.yaml`
+
+Render settings:
+
+```text
+Build Command: ./build.sh
+Start Command: gunicorn project_recommender.wsgi:application
+```
+
+Environment variables:
+
+```text
+DJANGO_DEBUG=false
+DJANGO_SECRET_KEY=generate a secure value
+DJANGO_ALLOWED_HOSTS=project-recommendation-system.onrender.com,.onrender.com,localhost,127.0.0.1
+```
