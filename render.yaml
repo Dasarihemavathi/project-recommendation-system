@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: project-recommendation-system
+    name: hemavathi-project-recommendation-system
     runtime: python
     buildCommand: ./build.sh
     startCommand: gunicorn project_recommender.wsgi:application
@@ -10,4 +10,4 @@ services:
       - key: DJANGO_SECRET_KEY
         generateValue: true
       - key: DJANGO_ALLOWED_HOSTS
-        value: "project-recommendation-system.onrender.com,.onrender.com,localhost,127.0.0.1"
+        value: "hemavathi-project-recommendation-system.onrender.com,.onrender.com,localhost,127.0.0.1"

@@ -88,5 +88,5 @@ Environment variables:
 ```text
 DJANGO_DEBUG=false
 DJANGO_SECRET_KEY=generate a secure value
-DJANGO_ALLOWED_HOSTS=project-recommendation-system.onrender.com,.onrender.com,localhost,127.0.0.1
+DJANGO_ALLOWED_HOSTS=hemavathi-project-recommendation-system.onrender.com,.onrender.com,localhost,127.0.0.1
 ```
